@@ -2,7 +2,7 @@ const express = require("express");
 const app = express()
 const mysql = require('mysql');
 const cors = require('cors')
-const port = 2424
+const port = process.env.PORT || 2424;
 const bodyParser = require("body-parser")
 
 
